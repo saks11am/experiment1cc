@@ -1,56 +1,3 @@
-// // void setup() {
-// //   // put your setup code here, to run once:
-
-// // }
-
-// // void loop() {
-// //   // put your main code here, to run repeatedly:
-
-// // }
-// // int ledPin = 13;
-
-// // void setup() {
-// //   Serial.begin(9600);
-// //   pinMode(ledPin, OUTPUT);
-// // }
-
-// // void loop() {
-// //   digitalWrite(ledPin, HIGH);
-// //   Serial.println("LED on");
-// //   delay(1000);
-// // }
-
-// int ledBottom = 13;
-// int ledMiddle = 27;
-// int ledTop = 15;
-
-// int sensorBMin = 0;
-// int sensorBMax = 4095;
-
-// int sensorMMin = 0;
-// int sensorMMax = 4095;
-
-// int sensorTMin = 0;
-// int sensorTMax = 4095;
-
-
-
-// void setup() {
-//   Serial.begin(9600);
-//   pinMode(ledBottom, OUTPUT);
-//   pinMode(ledMiddle, OUTPUT);
-//   pinMode(ledTop, OUTPUT);
-// }
-
-// void loop() {
-//   digitalWrite(ledBottom, HIGH);
-//   digitalWrite(ledMiddle, HIGH);
-//   digitalWrite(ledTop, HIGH);
-//   Serial.println("All LEDs on");
-//   delay(1000);
-// }
-
-
 int sensorBMin = 0;
 int sensorBMax = 4095;
 
@@ -127,7 +74,7 @@ else if (sensorBValue < 4500 && sensorMValue < 4500 && sensorTValue > 3000)
   //Sensor 1 is higher
   ledBValue = onBrightness;
   ledMValue = onBrightness;
-  ledTValue= onBrightness;
+  ledTValue = onBrightness;
 }
 
 else 
